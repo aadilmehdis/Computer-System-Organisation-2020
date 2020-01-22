@@ -1,6 +1,7 @@
 # Instruction to assemble and run programs
 ## Step 1
 - Write an assembly code and save it with a `.s` extension.
+- In your assembly code instead of declaring the start label of your program as `_start`, use `_main`. (It's a Mac thing, find out why.)
 - For example, `hello.s`.
 ## Step 2
 - Assemble your program using the following instruction,
@@ -23,8 +24,10 @@
 ## Run with GDB
 - Run the following,
     - `gdb ./hello`
-- Insert break point in the starting of the program frame
+- Insert break points in the starting of the program frame
     - `b 1`
+    - `b 2`
+    - `b 3`
     - This sets a break point on the first line of your code.
 - Run your program
     - `run`

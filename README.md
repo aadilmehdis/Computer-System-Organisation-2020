@@ -12,3 +12,9 @@
 - [x] [x86](https://github.com/aadilmehdis/Computer-System-Organisation-2020/tree/master/Resources/x86) cheatsheet
 
 - [x] [gdb](https://github.com/aadilmehdis/Computer-System-Organisation-2020/tree/master/Resources/gdb) notes, cheatsheets
+
+- [x] [gdb installation for Mac OSX](https://github.com/aadilmehdis/Computer-System-Organisation-2020/tree/master/Resources/MacOS) notes, cheatsheets
+
+- [x] [executing assembly code for Mac OSX](https://github.com/aadilmehdis/Computer-System-Organisation-2020/tree/master/Resources/MacOS) notes, cheatsheets
+
+
