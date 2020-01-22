@@ -13,7 +13,7 @@
 - Mac OSX uses the LLDB, the LLVM debugger, in their Xcode toolchain, so you will have to install the GDB tool yourself.
 - Execute the following command to install GDB using Homebrew in your system,
     - `brew install gdb`
-- Now you should have gdb install, but alas!, it won't work :(
+- Now you should have gdb install, but alas!, it won't work :grimacing:
 - We need to code-sign the GDB executable, so it will be allowed to control other processes, as necessary for a debugger. For that, we will first create a new certificate in Keychain (onto the next section). 
 
 # Codesigning
@@ -61,7 +61,8 @@
         <key>com.apple.security.cs.debugger</key>
         <true/>
     </dict>
-    </plist>```
+    </plist> 
+    ```
 
 ## Signing the debugger binaries
 - This step will link your newly created certificate with GDB
@@ -71,8 +72,8 @@
     - Display details of code signature: `codesign -d --entitlements - $(which gdb)`
 
 ## Refresh System Certificates
-- Reboot the machine
+- Reboot the machine :relieved:
 
 ## Successfully Installed GDB
-- Great! You should have GDB up and running now. :)
+- Great! You should have GDB up and running now. :smiley:
 
