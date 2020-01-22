@@ -54,14 +54,14 @@
 ## Creating the "entitlements.xml" File
 - Copy the text below and save it in an "entitlements.xml" file in your current directory.
 - ```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-    <key>com.apple.security.cs.debugger</key>
-    <true/>
-</dict>
-</plist>
+    <?xml version="1.0" encoding="UTF-8"?>
+    <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+    <plist version="1.0">
+    <dict>
+        <key>com.apple.security.cs.debugger</key>
+        <true/>
+    </dict>
+    </plist>
 ```
 
 ## Signing the debugger binaries
