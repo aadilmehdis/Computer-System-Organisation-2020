@@ -61,8 +61,7 @@
         <key>com.apple.security.cs.debugger</key>
         <true/>
     </dict>
-    </plist>
-```
+    </plist>```
 
 ## Signing the debugger binaries
 - This step will link your newly created certificate with GDB
@@ -73,3 +72,7 @@
 
 ## Refresh System Certificates
 - Reboot the machine
+
+## Successfully Installed GDB
+- Great! You should have GDB up and running now. :)
+
