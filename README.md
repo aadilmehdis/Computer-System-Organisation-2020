@@ -4,9 +4,9 @@
 ## Tutorials
 * [Tutorial 1](https://github.com/aadilmehdis/Computer-System-Organisation-2020/tree/master/Tutorial1) [17/01/2020] - Introduction to ISA, x86 ISA
 
-* [Tutorial 2](https://github.com/aadilmehdis/Computer-System-Organisation-2020/tree/master/Tutorial2) [18/01/2020] - x86 ISA, gdb
+* [Tutorial 2](https://github.com/aadilmehdis/Computer-System-Organisation-2020/tree/master/Tutorial2) [18/01/2020, 22/01/2020] - x86 ISA, gdb
 
-
+* [Tutorial 3](https://github.com/aadilmehdis/Computer-System-Organisation-2020/tree/master/Tutorial3) [25/01/2020, 29/01/2020] - Revisited loops and conditional statements
 
 ## Resources
 - [x] [x86](https://github.com/aadilmehdis/Computer-System-Organisation-2020/tree/master/Resources/x86) cheatsheet
@@ -33,6 +33,3 @@
 
 * Wednesday [10-11AM]
   + UG2-H-302
-
-
-
